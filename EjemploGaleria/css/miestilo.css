@@ -1,0 +1,79 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	border: 1px solid black;
+}
+#contenedor{
+	width: 100%;
+	height: 900px;
+}
+#centro{
+	width: 1000px;
+	height: 900px;
+	margin: auto;
+}
+#banner{
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	margin-top: 20px;
+	background-image: url(../img/mazda.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+#banner div{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 250px;	
+	background-image: url(../img/flecha.png);
+	background-size: 100% 100%;
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+#banner div:hover{
+	opacity: 1;
+}
+#flecha-i{
+	left: -50px;
+	display: none;
+}
+#flecha-d{
+	left: 750px;
+	transform: rotate(180deg);
+}
+#imagenes{
+	width: 800px;
+	height: 200px;
+	margin: auto;
+	margin-top: 50px;
+}
+#imagenes div{
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin-left: 10px;
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+#imagenes div:hover{
+	opacity: 1;
+}
+#auto1{
+	background-image: url(../img/mazda.jpg);
+	background-size: 100% 100%;
+}
+#auto2{
+	background-image: url(../img/toyota.jpg);
+	background-size: 100% 100%;
+}
+#auto3{
+	background-image: url(../img/chevrolet.jpg);
+	background-size: 100% 100%;
+}
+
+.marca{
+	opacity: 1;
+}
